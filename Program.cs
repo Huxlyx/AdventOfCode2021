@@ -11,7 +11,31 @@ namespace AdventOfCode2021
 
         static void Main(string[] args)
         {
-            RunDay02_2();
+            RunDay04_2();
+        }
+
+        public static void RunDay04_2()
+        {
+            string[] input = File.ReadAllLines(PATH + "Day04_1.txt");
+            Console.WriteLine(Day04_1.CalcScoreOfLastBoard(input));
+        }
+
+        public static void RunDay04_1()
+        {
+            string[] input = File.ReadAllLines(PATH + "Day04_1.txt");
+            Console.WriteLine(Day04_1.CalcScoreOfFirstBoard(input));
+        }
+
+        public static void RunDay03_2()
+        {
+            string[] input = File.ReadAllLines(PATH + "Day03_1.txt");
+            Console.WriteLine(Day03_1.CalcConsumption2(input));
+        }
+
+        public static void RunDay03_1()
+        {
+            string[] input = File.ReadAllLines(PATH + "Day03_1.txt");
+            Console.WriteLine(Day03_1.CalcConsumption1(input));
         }
 
         public static void RunDay02_2()

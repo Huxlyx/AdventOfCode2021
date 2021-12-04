@@ -5,7 +5,6 @@ C:\Users\mtengler\source\repos\AdventOfCode2021\AdventOfCode2021\bin\Debug\net5.
 C:\Users\mtengler\source\repos\AdventOfCode2021\AdventOfCode2021\bin\Debug\net5.0\AdventOfCode2021.dll
 C:\Users\mtengler\source\repos\AdventOfCode2021\AdventOfCode2021\bin\Debug\net5.0\ref\AdventOfCode2021.dll
 C:\Users\mtengler\source\repos\AdventOfCode2021\AdventOfCode2021\bin\Debug\net5.0\AdventOfCode2021.pdb
-C:\Users\mtengler\source\repos\AdventOfCode2021\AdventOfCode2021\obj\Debug\net5.0\AdventOfCode2021.csproj.AssemblyReference.cache
 C:\Users\mtengler\source\repos\AdventOfCode2021\AdventOfCode2021\obj\Debug\net5.0\AdventOfCode2021.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\mtengler\source\repos\AdventOfCode2021\AdventOfCode2021\obj\Debug\net5.0\AdventOfCode2021.AssemblyInfoInputs.cache
 C:\Users\mtengler\source\repos\AdventOfCode2021\AdventOfCode2021\obj\Debug\net5.0\AdventOfCode2021.AssemblyInfo.cs
@@ -14,3 +13,4 @@ C:\Users\mtengler\source\repos\AdventOfCode2021\AdventOfCode2021\obj\Debug\net5.
 C:\Users\mtengler\source\repos\AdventOfCode2021\AdventOfCode2021\obj\Debug\net5.0\ref\AdventOfCode2021.dll
 C:\Users\mtengler\source\repos\AdventOfCode2021\AdventOfCode2021\obj\Debug\net5.0\AdventOfCode2021.pdb
 C:\Users\mtengler\source\repos\AdventOfCode2021\AdventOfCode2021\obj\Debug\net5.0\AdventOfCode2021.genruntimeconfig.cache
+C:\Users\mtengler\source\repos\AdventOfCode2021\AdventOfCode2021\obj\Debug\net5.0\AdventOfCode2021.csproj.AssemblyReference.cache
