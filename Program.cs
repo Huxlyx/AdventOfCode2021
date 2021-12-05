@@ -1,5 +1,6 @@
 ﻿using AdventOfCode2021.Src;
 using System;
+using System.Diagnostics;
 using System.IO;
 
 namespace AdventOfCode2021
@@ -7,11 +8,23 @@ namespace AdventOfCode2021
     class Program
     {
 
-        private const string PATH = @"C:\Users\mtengler\source\repos\AdventOfCode2021\AdventOfCode2021\Res\";
+        private const string PATH = @"..\..\..\Res\";
 
         static void Main(string[] args)
         {
-            RunDay04_2();
+            RunDay05_2();
+        }
+
+        public static void RunDay05_2()
+        {
+            string[] input = File.ReadAllLines(PATH + "Day05_1.txt");
+            Console.WriteLine(Day05_1.CalcOverlaps2(input));
+        }
+
+        public static void RunDay05_1()
+        {
+            string[] input = File.ReadAllLines(PATH + "Day05_1.txt");
+            Console.WriteLine(Day05_1.CalcOverlaps(input));
         }
 
         public static void RunDay04_2()
