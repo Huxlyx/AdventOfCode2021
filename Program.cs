@@ -12,7 +12,19 @@ namespace AdventOfCode2021
 
         static void Main(string[] args)
         {
-            RunDay09_2();
+            RunDay10_2();
+        }
+
+        public static void RunDay10_2()
+        {
+            string[] input = File.ReadAllLines(PATH + "Day10_1.txt");
+            Console.WriteLine(Day10_1.CalcMissingChars(input));
+        }
+
+        public static void RunDay10_1()
+        {
+            string[] input = File.ReadAllLines(PATH + "Day10_1.txt");
+            Console.WriteLine(Day10_1.CalcSyntaxErrors(input));
         }
 
         public static void RunDay09_2()
