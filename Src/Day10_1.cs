@@ -24,7 +24,14 @@ namespace AdventOfCode2021.Src
                     foreach (char c in stack)
                     {
                         sum *= 5;
-                        sum += CharVal(c);
+                        sum += c switch
+                        {
+                            ')' => 1,
+                            ']' => 2,
+                            '}' => 3,
+                            '>' => 4,
+                            _ => throw new InvalidOperationException($"{c} not expected")
+                        };
                     }
                     scores.Add(sum);
                 }
@@ -32,15 +39,6 @@ namespace AdventOfCode2021.Src
             scores.Sort();
             return scores[scores.Count >> 1];
         }
-
-        private static int CharVal(char c) => c switch
-        {
-            ')' => 1,
-            ']' => 2,
-            '}' => 3,
-            '>' => 4,
-            _ => throw new InvalidOperationException($"{c} not expected")
-        };
 
         private static (int, Stack<char>) HandleLine(string codeLine)
         {
@@ -65,22 +63,14 @@ namespace AdventOfCode2021.Src
                     default:
                         if (stack.Count == 0 || stack.Pop() != c)
                         {
-                            if (c == ')')
+                            return c switch
                             {
-                                return (3, null);
-                            }
-                            else if (c == ']')
-                            {
-                                return (57, null);
-                            }
-                            else if (c == '}')
-                            {
-                                return (1197, null);
-                            }
-                            else if (c == '>')
-                            {
-                                return (25137, null);
-                            }
+                                ')' => (3, null),
+                                ']' => (57, null),
+                                '}' => (1197, null),
+                                '>' => (25137, null),
+                                _ => throw new InvalidOperationException($"{c} not expected")
+                            };
                         }
                         break;
                 }
