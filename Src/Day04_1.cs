@@ -97,7 +97,7 @@ namespace AdventOfCode2021.Src
                 {
                     foreach (float row in line)
                     {
-                        sb.Append(row.ToString().PadRight(3));
+                        sb.Append(row.ToString().PadLeft(4));
                     }
                     sb.Append('\n');
                 }
